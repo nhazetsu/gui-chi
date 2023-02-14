@@ -31,7 +31,7 @@ function firstQuestion(){
         imageAlt: 'Custom image',
         confirmButtonText: CONFIG.btnIntro
       }).then(function(){
-    var audio = new Audio('sound/sound2.mp3');
+    var audio = new Audio('sound/sound.mp3');
     audio.play();
         $('.content').show(200);
       })
